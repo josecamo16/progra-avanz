@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="myscripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plantilla.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <form>
+        <br>
+        <a href="file:///C:/Users/jocamacho/Desktop/WEB/Index.html">Volver al Inicio</a>
+        <div class="imgcontainer">
+          <img src="register.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" value = document.getElementById("name")>
+            
+          </div>
+      
+        
+        <div id ="msg">
+            <pre></pre>
+
+            <script>
+                // Check browser support
+                if (typeof(Storage) !== "undefined") {
+                  // Retrieve
+                  document.getElementById("name").innerHTML = localStorage.getItem("name");
+                } else {
+                  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+                }
+                </script>
+
+        </div>
+      </form>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+var name = localStorage.getItem("name");

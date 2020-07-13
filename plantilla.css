@@ -1,0 +1,48 @@
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Para darle estilos a los inputs del HTML */
+  input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Para darle estilo a los botones */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    
+  }
+  
+  /* Efecto de los botones */
+  button:hover {
+    opacity: 0.8;
+  }
+ 
+  /* Para el contenido de las imagenes*/
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Contenido de imagen Inicial */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Relleno de los contenedores */
+  .container {
+    padding: 16px;
+    
+  }
